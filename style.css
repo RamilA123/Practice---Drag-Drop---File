@@ -1,0 +1,59 @@
+/* .item{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    display: inline-block;
+}
+
+
+#drag-elem1{
+    background-color: magenta;
+}
+
+#drag-elem2{
+    background-color: yellow;
+}
+
+#drag-elem3{
+    background-color: green;
+}
+
+#drag-elem4{
+    background-color: blue;
+}
+
+#drag-elem5{
+    background-color: orange;
+}
+
+.drop-elem{
+    width: 700px;
+    height: 300px;
+    background-color: silver;
+    float: right;
+    display: flex;
+    justify-content: center;
+} */
+
+.box{
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box .icon i{
+   font-size: 70px;
+   cursor: pointer;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+}
+
+.icon{
+    cursor: pointer;
+}
